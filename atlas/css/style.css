@@ -1,0 +1,638 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header{
+    background-image:url(../assets/banner-bk.jpg) ;
+    font-size: 4vh;
+    height:100%;
+    align-items: center;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+   
+
+}
+#imagen{
+    display: flex;
+    position: absolute;
+    width: 15vh;
+    padding-right: 156vh;
+    top: 60px;
+}
+header h1{
+   font-size: 60px;
+  padding-right: 99vh;
+
+}
+header #carlito{
+    position: absolute;
+  font-size: 2vh;
+    margin-top: 120px;
+    margin-right: 118vh;  
+}
+header #carla{
+ 
+    font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    width: 19vh;
+    padding-left: 160vh;
+    top: 60px;
+    font-size: 20px;
+}
+header .carmen{
+ 
+    background-color: #6effb7;
+    height: 25px;
+    margin: 60px;
+    margin-bottom: 5px;
+    margin-right: 170vh;
+    border-radius: 10px;;
+    border: none;
+}
+h2{
+margin-top: 20vh;
+    text-align: center;
+   font-size: 8vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.primis{
+ display: flex;
+margin-left:40vh ;
+margin-right:30vh ;
+text-align: center;
+height: 90vh;
+margin-top: 2vh;
+  
+
+}
+
+p{
+    width: 50vh;
+}
+.container{
+    display:flex ;
+    align-items: center;
+    margin-left: 5vh;
+    
+}
+.container2{
+    display:flex ;
+    align-items: center;
+    margin-left: 15vh;
+}
+.img1{
+  width: 55vh;
+}
+.img2{
+  width: 70vh;
+}
+h3{
+    font-size: 8vh;
+    color: rgb(11, 16, 46);
+   
+}
+#articulo{
+    width: 80vh;
+    margin-top: 3vh;
+}
+
+.juli{
+    margin-top: 5vh;
+   background-color: rgb(11, 16, 46);  
+   color: #fff;
+    padding: 2vh;
+   padding-left:5vh;
+   padding-right: 5vh;
+   border-radius: 20px;
+   border: none;
+   
+
+}
+
+main{
+    background:linear-gradient(168deg,rgb(255, 255, 255) 40%, rgb(52, 255, 170)0);
+    
+    
+    
+}
+
+
+.emilio {
+display: flex;
+margin-left: 35vh;
+
+}
+
+.perri{
+background-color: #ffffff;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+width: 250px;
+}
+
+
+.perri h2 {
+color: #000000;
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.lulo {
+font-size: 48px;
+font-weight: bold;
+color: #000000;
+margin-bottom: 10px;
+}
+.perla {
+font-size: 38px;
+font-weight: bold;
+color: #ffffff;
+margin-bottom: 10px;
+}
+
+
+
+.perri ul {
+list-style: none;
+padding: 0;
+margin-bottom: 20px;
+
+}
+.perri li:last-child {
+    border-bottom: none;
+}
+.anlui ul {
+list-style: none;
+padding: 0;
+margin-bottom: 20px;
+color: #fff;
+}
+
+.anlui{
+    background-color: #08192e;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+  }
+
+.anlui li:last-child {
+border-bottom: none;
+color: #fff;
+}
+#eda{
+    color: #fff;
+    font-size: 22px;
+   margin-bottom: 10px;
+}
+
+.anlui button {
+background-color: #00ffaa;
+color: #000000;
+border: none;
+padding: 10px ;
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+}
+
+
+.perri button {
+
+color: #000000;
+border: 1px solid rgb(11, 16, 46);
+padding: 10px 20px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 16px;
+
+}
+.azura{
+    display: flex;
+    background-color: gainsboro;
+    height: 30vh;
+    margin-top: 10vh;
+
+   
+    
+}
+.azura img{
+    margin-left: 7vh;
+    margin-top: 50px;
+    
+}
+header{
+   
+    font-size: 2vh;
+    height:100vh;
+    align-items: center;
+    color: #fff;
+    display:flex;
+
+}
+.fercha{
+    background-image:url(../assets/contact-bk.jpg) ;
+    font-size: 3vh;
+    height:100vh;
+    align-items: center;
+    color: #fff;
+    display:flex;
+    
+
+   
+}
+
+
+  input[type="text"],
+  input[type="email"],
+  
+  textarea {
+    background-image:url(../assets/contact-bk.jpg) ;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #1a662b;
+    border-radius: 3px;
+ }
+ 
+  
+
+  .remi {
+    background-color: #08ff45;
+    color: rgb(0, 0, 0);
+    padding: 12px 30vh;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+form{
+    margin-bottom: 24vh;
+    margin-left: 23vh;
+}
+  .lola{
+    color: #fff;
+    margin-left: 20vh;
+    margin-bottom: 24vh;
+  }
+  h6{
+    font-size: 6vh;
+    margin:2vh;
+  }
+  footer {
+    height: 15vh;
+    font-size: 3vh;
+    background-color: #08192e;
+    color: #fff;
+   
+   
+
+    
+    
+  }
+  .perto footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+       
+    
+  }
+h5{
+    margin:10vh;
+    text-align: center;
+   font-size: 8vh;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.fText{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  
+}
+label{
+  color: #08ff45;
+}
+
+.textA{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textSuperior{
+  display: flex;
+  
+}
+.iconos{
+  display: flex;
+}
+.icono{
+  margin-left: 70px;
+}
+.pajaro{
+  display: flex;
+  justify-content: space-between;
+margin-right: 40px;
+  
+}
+
+
+
+ @media screen and (max-width:1280px){
+  #imagen{
+    width: 10vh;
+    padding-right: 143vh;
+    top: 80px;
+}
+header #carlito{
+  margin-right: 110vh;  
+}
+header .carmen{
+  margin-right: 160vh;
+  
+}
+h2{
+margin-left:3vh;
+font-size: 5vh;
+   
+  }
+.primis{
+   margin-left:28vh ;
+   margin-right:30vh ;    
+   
+   }
+   h6{
+    font-size: 4vh;
+    margin:2vh;
+  }  
+.container2{
+    margin-left:5vh;
+}  
+h3{
+  font-size: 6vh;
+ 
+}
+#articulo{
+  width: 95vh;
+  margin-top: 3vh;
+}
+h5{
+  margin-right:5vh;
+ font-size: 5vh;
+
+}
+h2{
+  margin-top: 8vh;
+  margin-left: 7vh;
+   
+  }
+
+.emilio {
+    margin-left: 40vh;
+    }
+ form{
+       margin-left:10vh;
+     
+  }
+  .iconos{
+    display: flex;
+    margin-right: 10vh;
+  }
+  .azura img{
+    margin-left: 10vh;
+    margin-top: 50px;
+    
+}
+header #carla{
+ margin-right: 45vh;
+  font-size: 20px;
+}
+ 
+ }
+
+ /* @media screen and (max-width:769px){
+  #imagen{
+    width: 10vh;
+    padding-right: 43vh;
+    top: 80px;
+}
+header #carlito{
+  margin-right: 136px;  
+  margin-bottom: 90px;
+ 
+  
+}
+header .carmen{
+  margin-right:60vh
+  
+}
+header h1{
+  font-size: 30px;
+ padding-right: 39vh;
+
+}
+h2{
+margin-left:33vh;
+font-size: 5vh;
+   
+  }
+.primis{
+   margin-left:15vh ;
+   }
+ 
+ h6{
+    font-size: 4vh;
+    margin:2vh;
+  }  
+ 
+h3{
+  font-size: 4vh;
+  margin-left: 7vh;
+ 
+}
+#articulo{
+  width: 40vh;
+  margin-top: 3vh;
+  margin-left: 7vh;
+}
+.juli{
+  margin-left: 6vh;
+}
+.img1{
+  width: 30vh;
+}
+.img2{
+  width: 30vh;
+  margin-left: 5vh;
+}
+.container2{
+  margin-left: 1vh;
+}
+h5{
+  margin-left:16vh;
+ font-size: 5vh;
+
+}
+h2{
+  margin-top: 3vh;
+  font-size: 2vh;
+  width: 45vh;
+  margin-left: 19vh;
+   
+  }
+
+.emilio {
+    margin-left: 160px;
+    }
+.lulo{
+  font-size: 3vh;
+
+    }
+ .perri{
+      
+  width: 120px;
+ }
+ .perla{
+font-size: 3vh;
+ }
+ .anlui{
+  
+  width: 140px;
+}
+ form{
+       margin-left: 1vh;
+       width: 50vh;
+       
+    
+     
+  }
+  .iconos{
+    display: flex;
+    margin-right: 10vh;
+  }
+  .azura img{
+    margin-left: 14vh;
+    margin-top: 50px;
+    width: 6vh;
+    
+}
+header #carla{
+ margin-right: 99vh;
+  font-size: 20px;
+}
+.lola{
+ 
+  margin-left: 3vh;
+  
+  
+}
+
+.remi {
+ width: 35vh;
+}
+ .textA{
+margin-left:6vh ;
+  width: 100%;
+} 
+ }  */
+
+ /* @media screen and (max-width:481px){
+  header{
+    width: 130%;
+  }
+
+h2{
+font-size: 3vh;
+
+   
+  }
+.primis{
+   margin-right:40vh ;
+
+   }
+ h6{
+    font-size: 4vh;
+    margin: 2vh;
+  }  
+ 
+h3{
+  font-size: 3vh;
+  
+ 
+}
+#articulo{
+  width: 23vh;
+  margin-top: 3vh;
+  margin-right: vh;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.img2{
+  width: 40vh;
+}
+h5{
+  margin-right:5vh;
+ font-size: 5vh;
+
+}
+
+h2{
+  margin-top: 8vh;
+  margin-left: 7vh;
+  font-size: vh;
+   
+  }
+
+.emilio {
+    margin-left: 1px;
+    }
+ .perri{
+      
+  width: 159px;
+ }
+ .anlui{
+
+  width: 200px;
+}
+ form{
+       margin-left: 3vh;
+       width:30vh;
+    
+  }
+  .iconos{
+    display: flex;
+    margin-right: 10vh;
+  }
+  .azura img{
+    margin-left: 1vh;
+    margin-top: 50px;
+    width: 9vh;
+    
+}
+header #carla{
+ margin-right: 99vh;
+}
+.lola{
+  margin-left: 2vh;
+}
+
+.remi {
+ width: 10vh;
+}
+ .textA{
+margin-left:6vh ;
+  width: 100%;
+} 
+ }  */
