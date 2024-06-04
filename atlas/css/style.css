@@ -21,8 +21,8 @@ header{
 #imagen{
     display: flex;
     position: absolute;
-    width: 15vh;
-    padding-right: 156vh;
+    width: 20vh;
+    margin-right:950px;
     top: 60px;
 }
 header h1{
@@ -139,6 +139,7 @@ width: 250px;
 }
 
 
+
 .perri h2 {
 color: #000000;
 font-size: 24px;
@@ -151,6 +152,7 @@ font-weight: bold;
 color: #000000;
 margin-bottom: 10px;
 }
+
 .perla {
 font-size: 38px;
 font-weight: bold;
@@ -355,10 +357,11 @@ margin-right: 40px;
  header{
   width: auto;
  }
-  #imagen{
-    width: 10%;
-    padding-right: 69%;
-    top:9%;
+#imagen{
+
+    width: 80px;
+    margin-right:950px;
+    top: 60px;
 }
 header #carlito{
   margin-right: 58%; 
@@ -441,17 +444,119 @@ header #carla{
 }
  
  }
+ @media screen and (max-width:1279px){
+  header{
+   width: auto;
+  }
+#imagen{
+    margin-right:950px;
+ 
+}
+ header #carlito{
+   margin-right: 58%; 
+   margin-bottom: 7%;
+ 
+ 
+ }
+ header .carmen{
+   margin-right: 79%;
+     
+ }
+ header h1{
+   font-size: 260%; 
+   margin-bottom:2%;
+  padding-right:62%;
+ }
+ h2{
+ margin-left:3vh;
+ font-size: 5vh;
+    
+   }
+ .primis{
+    margin-left:15% ;  
+    
+    }
+    h6{
+     font-size: 4vh;
+     margin:2vh;
+   }  
+ .container{
+     margin-left:5%;
+ }  
+ .container2{
+     margin-left:1%;
+ }
+ .img1{
+   width: 80%;
+   }  
+ .img2{
+   width: 60%;
+ 
+ }  
+ h3{
+   font-size: 6vh;
+  
+ }
+ #articulo{
+   width: 85%;
+   margin-top: 3vh;
+ }
+ h5{
+   margin-right:5vh;
+  font-size: 5vh;
+ 
+ }
+ h2{
+   margin-top: 8vh;
+   margin-left: 7vh;
+    
+   }
+ 
+ .emilio {
+     margin-left: 20%;
+     }
+  form{
+        margin-left:400px
+   }
+   .iconos{
+     display: flex;
+     margin-right: 5vh;
+   }
+   .azura img{
+     margin-left: 70px;
+     margin-top: 25%;
+     
+ }
+ header #carla{
+  margin-right: 32vh;
+   font-size: 20px;
+ }
+  
+  }
+ 
  @media screen and (max-width:991px){
   .azura img{
     margin-left: 25px;
     margin-top: 25%;
     
 }
+#imagen{
+
+    width: 80px;
+    margin-right:750px;
+    top: 60px;
+}
 .emilio {
   margin-left: 10%;
   }
  }
  @media screen and (max-width:920px){
+  #imagen{
+
+
+    margin-right:710px;
+  
+}
   header #carla{
     margin-right: 72vh;
      font-size: 15px;
@@ -482,6 +587,10 @@ header #carla{
     margin-right: 72vh;
      font-size: 15px;
    }
+     #imagen{
+    margin-right:580px;
+  
+}
    header #carlito{
     margin-right: 53%; 
     margin-bottom: 13%
@@ -529,11 +638,22 @@ header #carla{
 
  }
  @media screen and (max-width:481px){
+    #imagen{
+
+
+    margin-right:310px;
+  
+}
   .primis{
       flex-direction: column;
       align-items: center; 
+    margin-left: 200px;
   
   }
+  header #carla{
+    margin-right: 100vh;
+     font-size: 15px;
+   }
   .container{
     margin-top: 100%;
   }
@@ -552,7 +672,7 @@ header #carla{
 }
 form{
   width: 70%;
-  margin-right: 24%;
+  margin-right: 5%;
 }
 header h1{
   font-size: 200%; 
@@ -573,9 +693,18 @@ left:76%;
     
  }
  @media screen and (max-width:480px){
+    #imagen{
+
+
+    margin-right:240px;
+  
+}
   .primis{
       flex-direction: column;
-      align-items: center; 
+      align-items: center;
+      margin-left: 600px;
+       
+       
   
   }
   .container{
@@ -604,3 +733,18 @@ header #carlito{
 }    
     
  }
+
+ @media screen and (max-width:480px){
+ header #carla{
+  margin-right: 700px;
+ 
+ }
+ .primis{
+ margin-left: 150px;
+
+}
+header #carlito{
+  margin-right: 15%; 
+
+} 
+}
